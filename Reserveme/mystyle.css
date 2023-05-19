@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background-image: url('fondo.jpg'); 
+    padding-top: 150px;
+    background-color: #022A60 ;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 30px 0px;
+}
+.n {
+    width: 320px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+header{
+    background-color: black;
+    
+    gap:15%;
+    height: 70px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+.nav { /*contenedor de la barra nav*/
+	background: #060606;
+	padding: 10px;
+	display: flex;
+	position: relative;
+}
+.button_inicio{
+    position: absolute;
+    right: 10px;
+    height: 50px;
+    width: 100px;
+    }
+    
+.button_registro{
+        position: absolute;
+        right: 120px;
+        height: 50px;
+        width: 100px;
+    }
+    .inicio {/*logo de la barra nav*/
+        display: flex;
+        height: 80px;
+    
+    }
+.scroll .n{
+    filter: invert(15%);
+}           
+.scroll h1{
+    color: #141C29;
+}
+.carrito{
+    filter: invert(100%);
+    width: 45px;
+    height: auto;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.contenedor>div{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: #475954;
+    border-radius: 30px;
+}
+.contenedor>div:hover{
+    background-color: #09c5bb;
+}
+
+.informacion{
+    color: aliceblue;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:15px;
+}
+.informacion>p:first-child{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+.informacion .precio {
+    font-size: 20px;
+    font-weight: 500;
+}
+.informacion .precio span{
+    font-size: 17px;
+    font-weight: 300;
+}
+.informacion button{
+    background-color: #e9f1f7;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.informacion button:hover{
+    background-color: #008781;
+}
+
+.button_inicio{
+    position: absolute;
+    right: 10px;
+    height: 50px;
+    width: 100px;
+    }
+    
+    .button_registro{
+        position: absolute;
+        right: 120px;
+        height: 50px;
+        width: 100px;
+    }
+
+.formcenter {
+        justify-content: center;
+        text-align: center;
+    }
+.form-register { 
+        width: 900px;
+        background: #895A44;
+        padding: 30px;
+        margin: auto;
+        margin-bottom: 30px;
+        border-radius: 50px;
+        font-family: arial;
+        color: black;
+        box-shadow: 5px 10px 30px black;
+    }
+.cont{
+    border-radius: 30px;
+}

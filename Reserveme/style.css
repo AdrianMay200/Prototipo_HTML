@@ -1,0 +1,404 @@
+body {
+	margin: 0;
+	background-color: #022A60 ;
+}
+
+.button_inicio{
+position: absolute;
+right: 10px;
+height: 50px;
+width: 100px;
+}
+
+.button_registro{
+	position: absolute;
+	right: 120px;
+	height: 50px;
+	width: 100px;
+}
+.contenedor {/*contenedor para todos los elementos*/
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+h1 {
+	text-align: center;
+	font-family: times new roman;
+	font-size: 50px;
+	padding-top: 5cm;
+}
+
+.inicio {/*logo de la barra nav*/
+	display: flex;
+	height: 80px;
+
+}
+.center{/*logo de la pagina de bienvenida*/
+	display: flex;
+	justify-content: center;
+	height: 500px;
+
+}
+
+
+.enlace {/*enlaces de la barra nav*/
+	background: #949696;
+	color: black;
+}
+
+
+
+.nav { /*contenedor de la barra nav*/
+	background: #060606;
+	padding: 10px;
+	display: flex;
+	position: relative;
+}
+/*00000000000000000000000000000000000000000000000000000000000*/
+header{
+    gap:15%;
+    height: 70px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+
+}
+
+/*00000000000000000000000000000000000000000000000000000000*/
+.fotos { /*linea de fotos */
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	height: 300px;
+
+
+}
+
+#contenedor {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+  }
+  #principal {
+	width: 50%;
+	margin-left: 20px;
+  }
+  #sidebar {
+	width: 40%;
+	text-align: left;
+	font-family: times new roman;
+	font-size: 50px;
+	margin-top: 200px;
+	
+
+
+  }
+  
+  #imagen {
+	width: 700px;
+    height: 500px;
+    border-radius: 20%;
+    margin-top: 20%;
+    border:2px solid #fff;
+
+}
+.abajo	{
+	margin: 10px;
+	display: flex;
+	justify-content: space-around;
+	border: 2px solid black;
+
+}
+
+
+.redes {
+	margin: 10px;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+footer {
+	text-align: center;
+	background: #008781;
+	padding: 5px;
+}
+
+
+
+/*FORMULARIO*/
+.formcenter {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.form-register { 
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	background: #475954;
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 50px;
+	font-family: arial;
+	color: black;
+	box-shadow: 5px 10px 30px black;
+}
+.submitBtn {
+	display: block;
+	margin: center;
+	padding: 15px 40px;
+	border: none;
+	background-color: white;
+	color: black;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 16px;
+	margin-top: 30px;
+  }
+  
+  .submitBtn:hover {
+	background-color: #D9D9D9;
+	transform: translateY(-2px);
+  }
+
+/*seccion de catalogo del producto*/
+.form-cat { 
+	display: flex;
+	flex-direction: column;
+	width: 800px;
+	background: #239f98;
+	padding: 180px;
+	margin-top: 100px;
+	border-radius: 10px;
+	font-family: arial;
+	color: black;
+	box-shadow: 5px 10px 30px rgb(82, 218, 241);
+}
+
+/*Seccion de mobilario disponible*/
+
+.form-mobilario { 
+	display: flex;
+	flex-direction: column;
+	width: 800px;
+	background: #239f98;
+	padding: 50px;
+	margin: auto;
+	margin-top: 150px;
+	border-radius: 100px;
+	font-family: arial;
+	color: black;
+	box-shadow: 5px 10px 30px black;
+}
+
+/*FORMULARIO COTIZACION*/
+.form-cot { 
+	display: flex;
+	flex-direction: column;
+	width: 800px;
+	background: #239f98;
+	padding: 50px;
+	margin: auto;
+	margin-top: 90px;
+	border-radius: 50px;
+	font-family: arial;
+	color: black;
+	box-shadow: 5px 10px 30px black;
+}
+
+.cont { 
+	display: flex;
+	justify-content: center;
+	/* width: 95%; */
+	background: #fffff1;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid black;
+	font-family: verdana;
+	font-size: 15px;
+	color: black;
+}
+
+.form-register a {
+	color: black;
+	text-decoration: none;
+}
+.button:hover {
+ 	background: #1f53c5 ;
+}
+
+
+
+	.cont { 
+		width: 100%;
+		background: #fffff1;
+		padding: 10px;
+		border-radius: 4px;
+		margin-bottom: 8px;
+		border: 1px solid black;
+		font-family: verdana;
+		font-size: 15px;
+		color: black;
+	}
+
+	.button{
+		width: 100px;
+		justify-content: center;
+
+	}
+
+	.form-mobilario{
+		background: transparent;
+		width: 500px;
+		padding: 80px;
+		padding-top: 250px;
+		box-shadow: none;
+	}
+
+	.form-cot { 
+		background: transparent;
+		width: 500px;
+		padding: 80px;
+		padding-top: 250px;
+		box-shadow: none;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .nav li a {     
+
+	list-style: none;
+	color: black;
+	text-decoration: none;
+	padding: 20px 25px;
+	font-family: fantasy;
+}
+
+.nav li a:hover{    
+	background-color: #6ddbd7;
+}
+
+.enlace {
+	display: inline-block;
+}
+ */
+
+ /*PAQUET*/
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+        
+.scroll h1{
+    color: #141C29;
+}
+.carrito{
+    filter: invert(100%);
+    width: 45px;
+    height: auto;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.contenedor>div{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: #008781;
+    border-radius: 30px;
+}
+.contenedor>div:hover{
+    background-color: #09c5bb;
+}
+
+.informacion{
+    color: aliceblue;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:15px;
+}
+.informacion>p:first-child{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+.informacion .precio {
+    font-size: 20px;
+    font-weight: 500;
+}
+.informacion .precio span{
+    font-size: 17px;
+    font-weight: 300;
+}
+.informacion button{
+    background-color: #e9f1f7;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.informacion button:hover{
+    background-color: #008781;
+}
+.n {
+	width: 320px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}

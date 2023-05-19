@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Registrate</title>
+</head>
+<body>
+    <header id="header">
+		<div class="nav"><!-- barra de navegacion -->
+			<div class="inicio">
+				<img src="Reserveme-remo.png" alt="no se encontro la imagen" > </img>
+			</div>
+			<!-- <a href="" class="enlace">Contacto</a> -->
+			<button onclick="window.location.href='Registro.html'" class="button_registro">Registrarse</button>
+			<button onclick="window.location.href='sesion.html'" class="button_inicio">Iniciar sesion</button>
+		</div>
+	</header>
+   
+<form  method="post">
+
+    <div class="formcenter">
+	<section class="form-register">
+        <h4>Registrate:</h4>   
+        <label>Nombre</label>
+        <input class="cont" type="text" name="nombres" id="nombres" placeholder="Nombres" required>
+        <label>E-MAIL</label>
+        <input class="cont" type="email" name="email" id="email"  pattern="[a-zA-Z]+\@(hotmail|outlook|gmail)\.(com|es)" placeholder="Ingrese su Correo" required> 
+        <label>Fecha de nacimiento</label>
+        <input class="cont" type="date" name="fecha" id="fecha" placeholder="Fecha de nacimiento" required>
+        <!--<input class="cont" type="text" name="direccion" id="direccion" pattern="[a-zA-Z]" placeholder="Nombre de la ciudad	" required>-->
+        <label>Contraseña</label>
+        <input class="cont" type="password" name="password"  pattern="[A-Za-z0-9]+" minlength="8" maxlength="16" placeholder="Ingrese su contraseña" required>
+        <label>Confirmar contraseña</label>
+        <input class="cont" type="password" name="password"  pattern="[A-Za-z0-9]+" minlength="8" maxlength="16" placeholder="Confirme su contraseña" required>
+       <input class="submitBtn" type="submit"  value="Registrarse">
+    </section>
+</form>
+</div>
+
+</body>
+</html>
